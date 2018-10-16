@@ -9,7 +9,6 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot -prod",
     "heroku-prebuild": "npm install -g http-server",
     "heroku-postbuild": "ng build --prod --aot=false"
   },
